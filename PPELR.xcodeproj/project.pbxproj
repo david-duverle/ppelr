@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550BCEB51A598CBE00923A26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 550BCEB41A598CBE00923A26 /* main.cpp */; };
+		550BCED71A598DC100923A26 /* paillier.c in Sources */ = {isa = PBXBuildFile; fileRef = 550BCEC71A598DC100923A26 /* paillier.c */; };
+		550BCEE01A598E1700923A26 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCED91A598E1700923A26 /* libboost_thread.a */; };
+		550BCEE11A598E1700923A26 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEDA1A598E1700923A26 /* libboost_system.dylib */; };
+		550BCEE21A598E1700923A26 /* libmpio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEDB1A598E1700923A26 /* libmpio.a */; };
+		550BCEE31A598E1700923A26 /* libmsgpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEDC1A598E1700923A26 /* libmsgpack.a */; };
+		550BCEE41A598E1700923A26 /* libmsgpack-rpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEDD1A598E1700923A26 /* libmsgpack-rpc.a */; };
+		550BCEE91A598F7800923A26 /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEE71A598F7800923A26 /* libgmp.a */; };
+		550BCEEA1A598F7800923A26 /* libgmpxx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550BCEE81A598F7800923A26 /* libgmpxx.a */; };
+		5554CB6E1A662FD600DC60A1 /* libboost_random.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5554CB6D1A662FD600DC60A1 /* libboost_random.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		550BCEAF1A598CBE00923A26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55050D641A5E65880007BE96 /* ProcBitDecomposition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcBitDecomposition.hpp; sourceTree = "<group>"; };
+		550BCEB11A598CBE00923A26 /* PPELR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PPELR; sourceTree = BUILT_PRODUCTS_DIR; };
+		550BCEB41A598CBE00923A26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		550BCEC21A598DC100923A26 /* AdditiveInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AdditiveInterface.hpp; path = ../../../ppframework/PPFramework/PPFramework/AdditiveInterface.hpp; sourceTree = "<group>"; };
+		550BCEC31A598DC100923A26 /* Cipher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Cipher.hpp; path = ../../../ppframework/PPFramework/PPFramework/Cipher.hpp; sourceTree = "<group>"; };
+		550BCEC41A598DC100923A26 /* Cryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Cryptosystem.hpp; path = ../../../ppframework/PPFramework/PPFramework/Cryptosystem.hpp; sourceTree = "<group>"; };
+		550BCEC51A598DC100923A26 /* CryptosystemBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CryptosystemBase.hpp; path = ../../../ppframework/PPFramework/PPFramework/CryptosystemBase.hpp; sourceTree = "<group>"; };
+		550BCEC71A598DC100923A26 /* paillier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = paillier.c; sourceTree = "<group>"; };
+		550BCEC81A598DC100923A26 /* paillier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paillier.h; sourceTree = "<group>"; };
+		550BCEC91A598DC100923A26 /* MultiplicativeInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MultiplicativeInterface.hpp; path = ../../../ppframework/PPFramework/PPFramework/MultiplicativeInterface.hpp; sourceTree = "<group>"; };
+		550BCECA1A598DC100923A26 /* PackingUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PackingUtils.hpp; path = ../../../ppframework/PPFramework/PPFramework/PackingUtils.hpp; sourceTree = "<group>"; };
+		550BCECB1A598DC100923A26 /* PaillierCryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PaillierCryptosystem.hpp; path = ../../../ppframework/PPFramework/PPFramework/PaillierCryptosystem.hpp; sourceTree = "<group>"; };
+		550BCECC1A598DC100923A26 /* Plain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Plain.hpp; path = ../../../ppframework/PPFramework/PPFramework/Plain.hpp; sourceTree = "<group>"; };
+		550BCECD1A598DC100923A26 /* PrivateKeyInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PrivateKeyInterface.hpp; path = ../../../ppframework/PPFramework/PPFramework/PrivateKeyInterface.hpp; sourceTree = "<group>"; };
+		550BCECE1A598DC100923A26 /* PrivateKeyOverrides.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PrivateKeyOverrides.hpp; path = ../../../ppframework/PPFramework/PPFramework/PrivateKeyOverrides.hpp; sourceTree = "<group>"; };
+		550BCECF1A598DC100923A26 /* Procedure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Procedure.hpp; path = ../../../ppframework/PPFramework/PPFramework/Procedure.hpp; sourceTree = "<group>"; };
+		550BCED01A598DC100923A26 /* ProcExchangePublicKeys.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ProcExchangePublicKeys.hpp; path = ../../../ppframework/PPFramework/PPFramework/ProcExchangePublicKeys.hpp; sourceTree = "<group>"; };
+		550BCED21A598DC100923A26 /* ProcObliviousMult.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ProcObliviousMult.hpp; path = ../../../ppframework/PPFramework/PPFramework/ProcObliviousMult.hpp; sourceTree = "<group>"; };
+		550BCED31A598DC100923A26 /* Protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Protocol.hpp; path = ../../../ppframework/PPFramework/PPFramework/Protocol.hpp; sourceTree = "<group>"; };
+		550BCED41A598DC100923A26 /* RLWECryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RLWECryptosystem.hpp; path = ../../../ppframework/PPFramework/PPFramework/RLWECryptosystem.hpp; sourceTree = "<group>"; };
+		550BCED51A598DC100923A26 /* RPCClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RPCClient.hpp; path = ../../../ppframework/PPFramework/PPFramework/RPCClient.hpp; sourceTree = "<group>"; };
+		550BCED61A598DC100923A26 /* RPCServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RPCServer.hpp; path = ../../../ppframework/PPFramework/PPFramework/RPCServer.hpp; sourceTree = "<group>"; };
+		550BCED91A598E1700923A26 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = ../../../../../../../usr/local/lib/libboost_thread.a; sourceTree = "<group>"; };
+		550BCEDA1A598E1700923A26 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../../../../../usr/local/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		550BCEDB1A598E1700923A26 /* libmpio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmpio.a; path = ../../../../../../../usr/local/lib/libmpio.a; sourceTree = "<group>"; };
+		550BCEDC1A598E1700923A26 /* libmsgpack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsgpack.a; path = ../../../../../../../usr/local/lib/libmsgpack.a; sourceTree = "<group>"; };
+		550BCEDD1A598E1700923A26 /* libmsgpack-rpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmsgpack-rpc.a"; path = "../../../../../../../usr/local/lib/libmsgpack-rpc.a"; sourceTree = "<group>"; };
+		550BCEE71A598F7800923A26 /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = ../../../../../../../usr/local/lib/libgmp.a; sourceTree = "<group>"; };
+		550BCEE81A598F7800923A26 /* libgmpxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmpxx.a; path = ../../../../../../../usr/local/lib/libgmpxx.a; sourceTree = "<group>"; };
+		550BCEEB1A59909200923A26 /* ProcExactLogReg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcExactLogReg.hpp; sourceTree = "<group>"; };
+		553B14041A5BC764009F2109 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
+		5554CB6D1A662FD600DC60A1 /* libboost_random.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_random.dylib; path = /usr/local/lib/libboost_random.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550BCEAE1A598CBE00923A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BCEE31A598E1700923A26 /* libmsgpack.a in Frameworks */,
+				550BCEE01A598E1700923A26 /* libboost_thread.a in Frameworks */,
+				550BCEE11A598E1700923A26 /* libboost_system.dylib in Frameworks */,
+				550BCEE21A598E1700923A26 /* libmpio.a in Frameworks */,
+				550BCEE91A598F7800923A26 /* libgmp.a in Frameworks */,
+				5554CB6E1A662FD600DC60A1 /* libboost_random.dylib in Frameworks */,
+				550BCEE41A598E1700923A26 /* libmsgpack-rpc.a in Frameworks */,
+				550BCEEA1A598F7800923A26 /* libgmpxx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550BCEA81A598CBE00923A26 = {
+			isa = PBXGroup;
+			children = (
+				550BCEB31A598CBE00923A26 /* PPELR */,
+				550BCEC11A598D9300923A26 /* PPFramework */,
+				550BCED81A598DFB00923A26 /* Libs */,
+				550BCEB21A598CBE00923A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550BCEB21A598CBE00923A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550BCEB11A598CBE00923A26 /* PPELR */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550BCEB31A598CBE00923A26 /* PPELR */ = {
+			isa = PBXGroup;
+			children = (
+				550BCEB41A598CBE00923A26 /* main.cpp */,
+				553B14041A5BC764009F2109 /* utils.hpp */,
+				550BCEEB1A59909200923A26 /* ProcExactLogReg.hpp */,
+				55050D641A5E65880007BE96 /* ProcBitDecomposition.hpp */,
+			);
+			path = PPELR;
+			sourceTree = "<group>";
+		};
+		550BCEC11A598D9300923A26 /* PPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				550BCEC21A598DC100923A26 /* AdditiveInterface.hpp */,
+				550BCEC31A598DC100923A26 /* Cipher.hpp */,
+				550BCEC41A598DC100923A26 /* Cryptosystem.hpp */,
+				550BCEC51A598DC100923A26 /* CryptosystemBase.hpp */,
+				550BCEC61A598DC100923A26 /* LibPaillier */,
+				550BCEC91A598DC100923A26 /* MultiplicativeInterface.hpp */,
+				550BCECA1A598DC100923A26 /* PackingUtils.hpp */,
+				550BCECB1A598DC100923A26 /* PaillierCryptosystem.hpp */,
+				550BCECC1A598DC100923A26 /* Plain.hpp */,
+				550BCECD1A598DC100923A26 /* PrivateKeyInterface.hpp */,
+				550BCECE1A598DC100923A26 /* PrivateKeyOverrides.hpp */,
+				550BCECF1A598DC100923A26 /* Procedure.hpp */,
+				550BCED01A598DC100923A26 /* ProcExchangePublicKeys.hpp */,
+				550BCED21A598DC100923A26 /* ProcObliviousMult.hpp */,
+				550BCED31A598DC100923A26 /* Protocol.hpp */,
+				550BCED41A598DC100923A26 /* RLWECryptosystem.hpp */,
+				550BCED51A598DC100923A26 /* RPCClient.hpp */,
+				550BCED61A598DC100923A26 /* RPCServer.hpp */,
+			);
+			name = PPFramework;
+			path = PPELR;
+			sourceTree = "<group>";
+		};
+		550BCEC61A598DC100923A26 /* LibPaillier */ = {
+			isa = PBXGroup;
+			children = (
+				550BCEC71A598DC100923A26 /* paillier.c */,
+				550BCEC81A598DC100923A26 /* paillier.h */,
+			);
+			name = LibPaillier;
+			path = ../../../ppframework/PPFramework/PPFramework/LibPaillier;
+			sourceTree = "<group>";
+		};
+		550BCED81A598DFB00923A26 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				5554CB6D1A662FD600DC60A1 /* libboost_random.dylib */,
+				550BCED91A598E1700923A26 /* libboost_thread.a */,
+				550BCEDA1A598E1700923A26 /* libboost_system.dylib */,
+				550BCEDB1A598E1700923A26 /* libmpio.a */,
+				550BCEDC1A598E1700923A26 /* libmsgpack.a */,
+				550BCEDD1A598E1700923A26 /* libmsgpack-rpc.a */,
+				550BCEE71A598F7800923A26 /* libgmp.a */,
+				550BCEE81A598F7800923A26 /* libgmpxx.a */,
+			);
+			name = Libs;
+			path = PPELR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550BCEB01A598CBE00923A26 /* PPELR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550BCEB81A598CBE00923A26 /* Build configuration list for PBXNativeTarget "PPELR" */;
+			buildPhases = (
+				550BCEAD1A598CBE00923A26 /* Sources */,
+				550BCEAE1A598CBE00923A26 /* Frameworks */,
+				550BCEAF1A598CBE00923A26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPELR;
+			productName = PPELR;
+			productReference = 550BCEB11A598CBE00923A26 /* PPELR */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550BCEA91A598CBE00923A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Todai;
+				TargetAttributes = {
+					550BCEB01A598CBE00923A26 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 550BCEAC1A598CBE00923A26 /* Build configuration list for PBXProject "PPELR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 550BCEA81A598CBE00923A26;
+			productRefGroup = 550BCEB21A598CBE00923A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550BCEB01A598CBE00923A26 /* PPELR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550BCEAD1A598CBE00923A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BCEB51A598CBE00923A26 /* main.cpp in Sources */,
+				550BCED71A598DC100923A26 /* paillier.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		550BCEB61A598CBE00923A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		550BCEB71A598CBE00923A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		550BCEB91A598CBE00923A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		550BCEBA1A598CBE00923A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550BCEAC1A598CBE00923A26 /* Build configuration list for PBXProject "PPELR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BCEB61A598CBE00923A26 /* Debug */,
+				550BCEB71A598CBE00923A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550BCEB81A598CBE00923A26 /* Build configuration list for PBXNativeTarget "PPELR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BCEB91A598CBE00923A26 /* Debug */,
+				550BCEBA1A598CBE00923A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550BCEA91A598CBE00923A26 /* Project object */;
+}
